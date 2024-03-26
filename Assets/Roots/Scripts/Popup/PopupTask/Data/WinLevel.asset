@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc2dd55f1f59f745b8a0ee247773315, type: 3}
+  m_Name: WinLevel
+  m_EditorClassIdentifier: 
+  taskID: win_level
+  taskDataList:
+  - number: 5
+    reward: 200
+  - number: 10
+    reward: 300
+  - number: 20
+    reward: 500
+  description: Win {0} Level
+  taskIcon: {fileID: 21300000, guid: 6f8c284e83f38ee428df0b4122528ce8, type: 3}
+  taskType: 1
+  currentTask: 0
+  taskCount: 5
